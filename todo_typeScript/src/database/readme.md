@@ -1,0 +1,1 @@
+it stores array of object locally
