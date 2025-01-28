@@ -1,21 +1,22 @@
 {
-  "name": "todo_typeScript",
-  "packageManager": "yarn@4.6.0",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.21.2",
-    "mongoose": "^8.9.5"
-  },
+  "name": "todo_typescript",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
   },
   "devDependencies": {
-    "@types/cors": "^2.8.17",
-    "@types/express": "^5.0.0",
-    "@types/mongoose": "^5.11.96",
-    "@types/node": "^22.10.10",
-    "concurrently": "^9.1.2",
-    "nodemon": "^3.1.9"
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^5.0.0"
   }
 }

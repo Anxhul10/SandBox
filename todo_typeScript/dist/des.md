@@ -1,1 +1,0 @@
-it will have simple js from ts
