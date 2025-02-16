@@ -1,9 +1,11 @@
 import React from 'react';
 import {Form} from './Form'
 import {FormList} from './FormList'
+import {Header} from './Header'
+
 export const App = () => (
   <div>
-    <h1>Welcome to RealTimeUserList!</h1>
+      <Header />
     <Form></Form>
       <br></br>
       <h1>
