@@ -1,8 +1,7 @@
 import React from 'react';
 
-import './button.css';
 
-export interface ButtonProps {
+export interface TaskBoxProps {
   /** Is this the principal call to action on the page? */
   primary?: boolean;
   /** What background color to use */
@@ -16,22 +15,22 @@ export interface ButtonProps {
 }
 
 /** Primary UI component for user interaction */
-export const Button = ({
+export const TaskBox = ({
   primary = false,
   size = 'medium',
   backgroundColor,
   label,
   ...props
-}: ButtonProps) => {
+}: TaskBoxProps) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
-    <button
-      type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
+    <text
+      type="TaskBox"
+      className={['storybook-TaskBox', `storybook-TaskBox--${size}`, mode].join(' ')}
       style={{ backgroundColor }}
       {...props}
     >
       {label}
-    </button>
+    </text>
   );
 };
