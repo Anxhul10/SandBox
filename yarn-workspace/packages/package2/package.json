@@ -1,0 +1,9 @@
+{
+  "name": "package2",
+  "packageManager": "yarn@4.4.1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "package1": "1.0.0"
+  }
+}

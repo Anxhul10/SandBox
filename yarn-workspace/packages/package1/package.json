@@ -1,0 +1,6 @@
+{
+  "name": "package1",
+  "packageManager": "yarn@4.4.1",
+  "main": "index.js",
+  "version": "1.0.0"
+}
